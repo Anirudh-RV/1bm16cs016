@@ -1,0 +1,5 @@
+data("birthwt", package = "MASS")
+head(birthwt)
+head(birthwt$age)
+head(birthwt$lwt)
+boxplot(birthwt$age,birthwt$lwt,Names=c('AGE','HEIGHT'),xlab='AGE',ylab='HEIGHT',col='gray90')
